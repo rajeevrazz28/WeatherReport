@@ -1,0 +1,74 @@
+.weathercontainer{
+  padding: 40px;
+  margin: 150px;
+  /* margin-left: -15px; */
+  border-radius: 25px;
+  border: 2px solid lightgrey;
+  width: 35vw;
+  color: rgb(226, 226, 226);
+  background-color: rgba(12, 12, 12, 0.142);
+  backdrop-filter: blur(5px);
+}
+.weathercontainer:hover{
+  border-color: rgb(128, 145, 219);
+}
+.container{
+  background-image: url(https://cdn.pixabay.com/photo/2018/05/30/00/24/thunderstorm-3440450_1280.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.inputbox{
+  color: rgb(226, 226, 226);
+  font-size:large;
+  background-color: transparent;
+  padding: 10px;
+  padding-left: 45px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  /* border: 1.8px solid; */
+  border-color:lightgray;
+  border-radius: 25px;
+  width: 50vw;
+  
+}
+.inputbox:hover{
+  border-color:rgb(128, 145, 219);
+}
+.button{
+  color: rgb(226, 226, 226);
+  font-size:large;
+  background-color: transparent;
+  border-color:lightgray;
+  padding: 10px;
+  margin: 15px;
+  border-radius: 25px;
+  width: 150px;
+  cursor: pointer;
+}
+.button:hover{
+  border-color:rgb(128, 145, 219);
+  color: rgb(128, 145, 219);
+}
+
+.topcontainer{
+  display: flex;
+  justify-content: space-between;
+}
+.bottomcontainer{
+margin-top: 50px;
+display: flex;
+justify-content: space-between;
+}
+
+.date{
+display: flex;
+flex-direction: column;
+align-items: end;
+
+}
